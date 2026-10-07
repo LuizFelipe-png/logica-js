@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custo da Viagem</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <main class="exercicio">
+        <h1>Cálculo do Custo da Viagem</h1>
+
+        <label for="distancia">Distância percorrida (km):</label>
+        <input type="number" id="distancia" step="0.1">
+
+        <label for="kmLitro">Consumo do carro (km por litro):</label>
+        <input type="number" id="kmLitro" step="0.1">
+
+        <label for="precoLitro">Preço do litro (R$):</label>
+        <input type="number" id="precoLitro" step="0.01">
+
+        <button id="calcular">Calcular</button>
+
+        <p id="resultado" class="resultado">Os resultados aparecerão aqui.</p>
+    </main>
+
+    <script src="js/viagem.js"></script>
+</body>
+</html>
