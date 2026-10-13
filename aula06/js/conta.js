@@ -11,5 +11,7 @@ botao.onclick = () => {
     const valor_pago_com_taxa = valor_com_taxa / quantidade;
     const taxa = valor * taxa_servico;
 
-    valorFinal.textContent = "Valor total com taxa de serviço: R$" + valor_com_taxa.toFixed(2) + "\nValor a ser pago por pessoa com taxa de serviço: R$" + valor_pago_com_taxa.toFixed(2) + " reais." + "\nValor da taxa de serviço: R$" + taxa.toFixed(2) + " reais.";
+    valorFinal.textContent = "Valor total com taxa de serviço: R$" + valor_com_taxa.toFixed(2) 
+    + "\nValor a ser pago por pessoa com taxa de serviço: R$" + valor_pago_com_taxa.toFixed(2) 
+    + " reais." + "\nValor da taxa de serviço: R$" + taxa.toFixed(2) + " reais.";
 };
