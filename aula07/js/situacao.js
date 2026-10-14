@@ -8,10 +8,12 @@ botao.onclick = () => {
   if(nota >= 7){
     saida.textContent = "Aprovado";
     saida.className = "ok";
-  }else if(nota < 7 && nota >= 5){
+  }
+  else if(nota < 7 && nota >= 5){
     saida.textContent = "Recuperação";
     saida.className = "alerta";
-  }else if(nota < 5){
+  }
+  else if(nota < 5){
     saida.textContent = "Reprovado";
     saida.className = "erro";
   }
