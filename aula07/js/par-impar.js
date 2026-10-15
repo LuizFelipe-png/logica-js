@@ -4,15 +4,12 @@ const saida = document.querySelector("#saida");
 
 botao.onclick = () => {
   const n1 = Number(document.querySelector("#numero").value);
-  
-  const par = n1 % 2 === 0;
 
-  if(par) {
-    saida.textContent = "O número " + n1 + " é par.";
-    saida.className = "ok";
+  if(ehPar(n1)){
+    mostrar(`${n1} é par`, "ok");
   }
   else{
-    saida.textContent = "O número " + n1 + " é ímpar.";
-    saida.className = "erro";
+    mostrar(`${n1} é impar`, "alerta");
   }
-};
+  }
+;
